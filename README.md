@@ -13,6 +13,11 @@ Phase 1 – Build (In Progress)
 - Created Security Groups
 - Created employees.csv
 
+## Failure Testing
+| Test ID | Scenario | Status | 
+|----------|----------|---------|
+| BT-01 | Missing Last Name | Failed |
+
 ## Pending
 
 - Build provisioning script

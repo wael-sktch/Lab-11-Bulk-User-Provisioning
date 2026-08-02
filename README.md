@@ -1,27 +1,33 @@
-# Lab-11-Bulk-User-Provisioning
+# Lab 11 - Bulk User Provisioning
 
-## Status
+## Objective
 
-Phase 1 – Build (In Progress)
+Automate Active Directory user provisioning using PowerShell.
 
-## Completed
+## Environment
 
-- Created C:\Lab
-- Created C:\Lab\Logs
-- Created Employees OU
-- Created Department OUs
-- Created Security Groups
-- Created employees.csv
+Domain: atlas.local
 
-## Failure Testing
-| Test ID | Scenario | Status | 
-|----------|----------|---------|
-| BT-01 | Missing Last Name | Failed |
+## Technologies
 
-## Pending
+- PowerShell
+- Active Directory
+- CSV Import
+- Security Groups
 
-- Build provisioning script
-- Validation testing
-- Failure testing
-- Security review
-- Documentation completion
+## Architecture
+
+- CSV
+↓
+- PowerShell
+↓
+- Active Directory
+↓
+- Security Groups
+
+## Results
+
+- Automated user creation
+- Department assignment
+- Group membership assignment
+- Provisioning logs generated

@@ -17,13 +17,13 @@ Domain: atlas.local
 
 ## Architecture
 
-- CSV
+CSV
 ↓
-- PowerShell
+PowerShell
 ↓
-- Active Directory
+Active Directory
 ↓
-- Security Groups
+Security Groups
 
 ## Results
 
